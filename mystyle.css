@@ -1,0 +1,153 @@
+.header {
+    font-family: monospace;
+    color: blue;
+    text-align: center;
+}
+
+.sign-in {
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: 20;
+   text-align: center;
+}
+
+.UseYourGoogleAccount {
+    font-family: serif;
+    text-align: center;
+
+}
+
+.form {
+    text-align: center;
+    margin: 30px auto;
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif
+    
+    
+
+}
+
+.work-body {
+    margin:200px;
+    background-color: darkgray;
+     
+    
+}
+
+/* EMMANUEL STYLES */
+*{
+    box-sizing: border-box; 
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.main{
+    margin: 100px auto;
+    width: 35%;
+    padding: 50px;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+
+h1{
+    letter-spacing:-4px;
+}
+.text-blue{
+    color: blue;
+
+}
+.text-red{
+    color: red;
+}
+.text-yellow{
+    color: yellow;
+}
+.text-green{
+    color: green;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.intro-text{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+label{
+    display: none;
+}
+.email{
+    height: 50px;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding-left: 20px;
+}
+.forget{
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forget:hover{
+    color: red;
+}
+
+.footer-text{
+    margin-top: 50px;
+    font-size: 14px;
+
+
+}
+.footer-text>a{
+    display: block;
+    margin-top: 4px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 40px;
+
+
+}
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    position: relative;
+}
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+    margin-bottom: 20px;
+
+}
+
+.clearfix > .create-account{
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+    float: left;
+    position: absolute;
+    top: 10px;
+
+}
+
+.clearfix > .next-button{
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+    float: right;
+    background-color: blue;
+    padding: 12px 30px;
+    border-radius: 4px;
+    color: white;
+    top: 900+px;
+
+}

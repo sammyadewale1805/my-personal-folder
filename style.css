@@ -1,0 +1,40 @@
+body{
+    background-color:rgb(160, 180, 197);
+}
+
+.intro-text{
+    background-color: rgb(218, 33, 33);
+}
+
+p{
+    color: crimson;
+    text-align: center;
+    
+} 
+
+.intro-text{
+    text-align: left;
+    color: black;
+    background-color: bisque;
+    padding: 20px;
+    margin: 50px 30px;
+}
+
+ol li { 
+    color: rgb(180, 138, 21);
+
+}
+
+.welcome{
+    background-color: #8a42663b;
+    color: brown;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}   
+
+.what-we-do, .any-question{
+    background-color:blanchedalmond;
+    color: crimson;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   

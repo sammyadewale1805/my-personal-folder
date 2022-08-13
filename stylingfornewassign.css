@@ -1,0 +1,326 @@
+    * {
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .main-navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+        width: 100%;
+        background-color: #F2B705;
+        color: aliceblue;
+    }
+    
+    .list-div ul li {
+        display: inline-block;
+        padding: 0px 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        justify-content: center;
+    }
+    
+    .main-navbar .h3-p {
+        text-align: center;
+    }
+    
+    .main-navbar img {
+        width: 40px;
+        height: 35px;
+        margin-right: 5px;
+    }
+    
+    .img-logo-div {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .search-boxsection {
+        font-weight: 700;
+        font-size: large;
+        text-transform: uppercase;
+        margin: 0px 10px;
+    }
+    
+    .search-boxsection input {
+        height: 30px;
+        background-color: #F29F05;
+        border: none;
+        flex-direction: row;
+    }
+    
+    .search-boxsection button {
+        height: 30px;
+    }
+    
+    .main-navbar .logo {
+        display: flex;
+    }
+    /* nav-bar styling ends here  */
+    
+    .introtext-body {
+        background-color: #F29F05;
+        display: flex;
+        justify-content: center;
+        padding: 100px 190px;
+        color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .introtext-body h1 {
+        padding-bottom: 20px;
+    }
+    
+    .introtext-body p {
+        padding-bottom: 30px;
+    }
+    
+    .introtext-body .img-div {
+        display: flex;
+        justify-content: center;
+        /* width: 50%; */
+        flex-basis: 60%;
+        width: 150px;
+        height: 350px;
+    }
+    
+    .content-div {
+        max-width: 50%;
+    }
+    
+    .introtext-body a {
+        text-decoration: none;
+        color: aliceblue;
+        border: beige;
+        border: 1px rgb(245, 245, 243) solid;
+        padding: 5px 10px;
+        border-radius: 10px;
+        margin-right: 30px;
+    }
+    /* sub-intro */
+    
+    .sub-intro {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        padding: 100px 0px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .sub-intro-content-div h1 {
+        padding-bottom: 20px;
+    }
+    
+    .sub-intro-content-div p {
+        padding-bottom: 30px;
+        width: 80%;
+    }
+    
+    .sub-intro-content-div .img-div-for-sub {
+        display: flex;
+        justify-content: center;
+        height: 500px;
+    }
+    
+    .sub-intro-content-div {
+        max-width: 50%;
+    }
+    
+    .sub-intro-content-div a {
+        text-decoration: none;
+        color: aliceblue;
+        border: beige;
+        border: 1px rgb(245, 245, 243) solid;
+        padding: 5px 10px;
+        border-radius: 10px;
+        margin-right: 30px;
+        background-color: #F29F05;
+    }
+    /* sub intro ends */
+    /* title-div-starts */
+    
+    .title-div {
+        text-align: center;
+        justify-content: center;
+        background-color: #F29F05;
+        color: aliceblue;
+        padding-bottom: 40px;
+    }
+    
+    .title-div h1 {
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+    
+    .title-div p {
+        padding: 25px 0px;
+    }
+    
+    .image-container {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    .image-container img {
+        border: 1px solid rgb(255, 255, 255);
+    }
+    
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+    }
+    /* title-div-ends */
+    
+    .whole-social-div {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        padding: 20px 0px;
+    }
+    
+    .social-img-div {
+        gap: 20px;
+    }
+    
+    .social-img-div p {
+        padding: 5px 10px;
+    }
+    
+    .social-icons a {
+        text-decoration: none;
+        color: #F29F05;
+        padding: 10px 5px;
+        text-align: center;
+    }
+    
+    .social-img-div img {
+        padding-top: 50px;
+    }
+    
+    .link-media {
+        text-align: center;
+    }
+    
+    .background {
+        background-color: #F29F05;
+        height: 60%;
+        width: 60%;
+        position: absolute;
+        padding: 10px 40px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .overlay {
+        background-color: #F29F05;
+        position: relative;
+    }
+    
+    .heading {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    
+    .img-content {
+        border: 2px solid rgb(230, 229, 196);
+        box-shadow: 20px;
+        border-top: none;
+        padding: 0px 20px;
+    }
+    
+    .img-content2 {
+        padding: 0px 20px;
+    }
+    
+    .bars-div {
+        background-color: #eeeeed;
+        width: 25%;
+        border-radius: 10;
+    }
+    
+    .bars-div h2 {
+        font-size: 30px;
+    }
+    
+    .bars-div img {
+        width: 100%;
+    }
+    
+    .image-content h3 {
+        padding: 10px 0px;
+        font-weight: 800;
+    }
+    
+    .image-content h6 {
+        padding-top: 5px;
+        padding-bottom: 10px;
+        color: #04BFBF;
+        padding-left: 10px;
+    }
+    
+    .image-content h5 {
+        color: #04BFBF;
+        padding: 5px 0px;
+        font-weight: 800;
+    }
+    
+    .whole-bar {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        padding-bottom: 30px;
+    }
+    /* footer styling starts here */
+    
+    .whole-list {
+        display: flex;
+        justify-content: center;
+        gap: 220px;
+        background-color: rgb(28, 34, 34);
+        color: aliceblue;
+    }
+    
+    .whole-list h2 {
+        padding: 20px 0px;
+    }
+    
+    .whole-list .list-style ul {
+        list-style: none;
+    }
+    
+    .whole-list .list-style2 ul {
+        list-style: none;
+    }
+    
+    .form-social label {
+        display: none;
+    }
+    
+    .footer-form input {
+        width: 250px;
+        height: 30px;
+        background-color: #F29F05;
+        border: none;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    
+    .social-media-icon a {
+        text-decoration: none;
+        color: #eeeeed;
+    }
+    
+    .overlay {
+        min-height: 100%;
+        background: linear-gradient(0deg, rgba(217, 255, 0, 0.3), rgba(206, 186, 13, 0.3)), url(http://lorempixel.com/800/600/nature/2);
+        background-size: cover;
+        
+    }

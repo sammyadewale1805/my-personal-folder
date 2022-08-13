@@ -1,0 +1,73 @@
+        .welcome {
+            text-align: center;
+            font-family: monospace;
+            font-weight: 20px;
+            color: aliceblue;
+            margin: 50px;
+        }
+        
+        .bg-color {
+            background-image: url(./images/arsenal-image.jpg);
+        }
+        
+        .sign-in {
+            color: cornsilk;
+            border: 20px;
+            margin: 10px;
+            padding: px;
+            text-align: center;
+        }
+        
+        .log-in {
+            color: bisque;
+            text-align: center;
+        }
+        
+        .sign-up {
+            color: slategrey;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        
+        .email-label {
+            display: none;
+        }
+        
+        .label-password {
+            display: none;
+            border-left: 50px;
+        }
+        
+        .div-form {
+            text-align: center;
+        }
+        
+        .email-input {
+            height: 40px;
+            width: 30%;
+            border-radius: 40px;
+        }
+        
+        .input-password {
+            height: 40px;
+            width: 30%;
+            border-radius: 40px;
+        }
+        
+        .forgot-p {
+            font-size: 20px;
+            font-weight: 20px;
+            text-align: center;
+            margin-left: 200px;
+        }
+        
+        .sign-with {
+            color: aliceblue;
+        }
+        
+        .submit {
+            text-align: center;
+            color: blueviolet;
+            font-weight: 100;
+            font-size: large;
+        }
